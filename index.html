@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Politica de Privacidade | Diario Monitor</title>
+    <style>
+      :root {
+        --bg: #f7efe6;
+        --surface: #fffaf5;
+        --text: #2f3744;
+        --muted: #6d7481;
+        --accent: #a76437;
+        --border: #ecd8c5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #f8efe5 0%, #f4eadf 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 32px 20px 56px;
+      }
+
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 28px;
+        box-shadow: 0 10px 30px rgba(80, 53, 31, 0.06);
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 12px;
+        line-height: 1.2;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 4vw, 2.8rem);
+      }
+
+      h2 {
+        margin-top: 28px;
+        font-size: 1.15rem;
+      }
+
+      p,
+      li {
+        font-size: 1rem;
+      }
+
+      .meta {
+        margin-bottom: 24px;
+        color: var(--muted);
+      }
+
+      .badge {
+        display: inline-block;
+        margin-bottom: 14px;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: #f8e3d3;
+        color: var(--accent);
+        font-weight: 600;
+        font-size: 0.9rem;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="badge">Diario Monitor</div>
+        <h1>Politica de Privacidade</h1>
+        <p class="meta">Ultima atualizacao: 08/04/2026</p>
+
+        <h2>1. Visao geral</h2>
+        <p>
+          O Diario Monitor foi desenvolvido para ajudar usuarios a acompanhar
+          termos cadastrados em publicacoes do Diario Oficial e receber alertas
+          automaticos quando novas ocorrencias forem encontradas.
+        </p>
+        <p>
+          Esta Politica de Privacidade explica quais dados podem ser tratados
+          pelo aplicativo, para que finalidade eles sao utilizados e como o
+          usuario pode solicitar esclarecimentos.
+        </p>
+
+        <h2>2. Dados tratados pelo aplicativo</h2>
+        <p>O Diario Monitor pode tratar os seguintes dados:</p>
+        <ul>
+          <li>
+            dados de autenticacao informados pelo usuario, como e-mail e senha,
+            por meio da infraestrutura de autenticacao do Supabase
+          </li>
+          <li>termos monitorados cadastrados pelo usuario</li>
+          <li>
+            ocorrencias encontradas nas fontes monitoradas e associadas aos
+            termos cadastrados
+          </li>
+          <li>preferencias de notificacao definidas pelo usuario</li>
+          <li>
+            token de dispositivo necessario para envio de notificacoes push no
+            Android
+          </li>
+          <li>
+            registros tecnicos relacionados ao funcionamento do monitoramento
+            automatico e sincronizacao
+          </li>
+        </ul>
+
+        <h2>3. Finalidade do tratamento</h2>
+        <p>Os dados tratados pelo Diario Monitor sao utilizados para:</p>
+        <ul>
+          <li>autenticar o acesso do usuario</li>
+          <li>salvar e organizar os termos monitorados</li>
+          <li>buscar e registrar ocorrencias relacionadas aos termos cadastrados</li>
+          <li>exibir alertas e detalhes das ocorrencias encontradas</li>
+          <li>enviar notificacoes push quando houver novas ocorrencias</li>
+          <li>
+            manter o funcionamento tecnico, a seguranca e a confiabilidade do
+            servico
+          </li>
+        </ul>
+
+        <h2>4. Fontes de dados monitoradas</h2>
+        <p>
+          Atualmente, o aplicativo utiliza a integracao configurada no projeto
+          para consultar resultados relacionados a publicacoes do Diario Oficial.
+        </p>
+        <p>As ocorrencias exibidas no app podem incluir informacoes como:</p>
+        <ul>
+          <li>titulo da publicacao</li>
+          <li>data</li>
+          <li>secao do DOU</li>
+          <li>pagina</li>
+          <li>orgao responsavel</li>
+          <li>link para a publicacao oficial</li>
+        </ul>
+
+        <h2>5. Infraestrutura e servicos de terceiros</h2>
+        <p>O Diario Monitor utiliza servicos de terceiros para operar:</p>
+        <ul>
+          <li><strong>Supabase</strong>: autenticacao, banco de dados e funcoes de backend</li>
+          <li><strong>Firebase Cloud Messaging (FCM)</strong>: envio de notificacoes push no Android</li>
+        </ul>
+        <p>
+          Esses servicos podem tratar dados tecnicos estritamente necessarios
+          para autenticacao, armazenamento e entrega de notificacoes.
+        </p>
+
+        <h2>6. Notificacoes</h2>
+        <p>
+          Quando o usuario ativa notificacoes no aplicativo, um identificador
+          tecnico do dispositivo pode ser armazenado para permitir o envio de
+          alertas.
+        </p>
+        <p>
+          Esse identificador e utilizado exclusivamente para entrega de
+          notificacoes relacionadas ao funcionamento do Diario Monitor.
+        </p>
+
+        <h2>7. Compartilhamento de dados</h2>
+        <p>
+          O Diario Monitor nao foi projetado para comercializar dados pessoais
+          dos usuarios.
+        </p>
+        <p>
+          Os dados sao utilizados para a operacao do aplicativo e podem ser
+          processados apenas na medida necessaria pelos servicos de
+          infraestrutura utilizados no projeto.
+        </p>
+
+        <h2>8. Armazenamento e seguranca</h2>
+        <p>
+          Os dados do aplicativo sao armazenados na infraestrutura configurada
+          para o projeto, com uso de mecanismos de autenticacao e controle de
+          acesso aplicados no backend.
+        </p>
+        <p>
+          Embora sejam adotadas medidas tecnicas para reduzir riscos, nenhum
+          ambiente conectado a internet pode garantir seguranca absoluta.
+        </p>
+
+        <h2>9. Direitos do usuario</h2>
+        <p>O usuario pode, dentro das funcionalidades disponiveis no aplicativo:</p>
+        <ul>
+          <li>revisar termos cadastrados</li>
+          <li>excluir termos monitorados</li>
+          <li>ajustar preferencias de notificacao</li>
+        </ul>
+        <p>
+          Pedidos adicionais relacionados a dados e suporte podem ser
+          encaminhados para o contato informado pelo responsavel do aplicativo.
+        </p>
+
+        <h2>10. Contato</h2>
+        <p>Contato para suporte e assuntos de privacidade:</p>
+        <ul>
+          <li><strong>E-mail:</strong> suporte.diariomonitor@gmail.com</li>
+        </ul>
+
+        <h2>11. Atualizacoes desta politica</h2>
+        <p>
+          Esta Politica de Privacidade pode ser atualizada para refletir
+          evolucoes do aplicativo, mudancas tecnicas ou exigencias regulatarias
+          e de plataforma.
+        </p>
+        <p>Recomenda-se revisar este texto periodicamente.</p>
+      </section>
+    </main>
+  </body>
+</html>
